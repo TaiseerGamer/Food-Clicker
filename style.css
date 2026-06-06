@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+}
+
+#coin {
+  display: inline-block;
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 6px solid #b38700;
+  background: radial-gradient(#fdd800, #f0b800);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#coin:active {
+  transform: scale(0.95);
+}
+
+#money {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #0055aa;
+}
+
+.shop {
+  margin: 20px 0;
+}
+
+.shop button {
+  margin: 4px;
+  padding: 8px 12px;
+  font-size: 1em;
+}
+
+#history {
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.common { color: #000; }
+.rare  { color: #0000ff; }
+.epic  { color: #ff00ff; }
