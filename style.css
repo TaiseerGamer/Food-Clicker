@@ -46,10 +46,23 @@ body {
   border-radius: 6px;
   padding: 10px;
   background: #fff;
-  max-height: 200px;
+  max-height: 240px;
   overflow-y: auto;
 }
 
 .common { color: #000; }
 .rare  { color: #0000ff; }
 .epic  { color: #ff00ff; }
+
+/* Summer event highlight */
+.summer {
+  color: #00aa00;
+  font-weight: bold;
+}
+
+/* Summer Collector badge line */
+.badge {
+  color: #ff8800;
+  font-weight: bold;
+  margin-top: 8px;
+}
